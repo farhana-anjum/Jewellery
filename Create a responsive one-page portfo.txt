@@ -1,0 +1,11 @@
+Create a responsive one-page portfolio in one HTML file with
+embedded CSS. 
+I am Farhana Anjum. I am working in a school as a Teacher's assistant.
+Audience: internship recruiters. 
+Sections: introduction, two projects, skills, about, contact. 
+Use the verified facts below. 
+Each project needs my role, tools, outcome and a proof link. 
+Use semantic headings, keyboard focus and readable contrast.
+Use placeholders for missing links. 
+Include no invented achievements or working contact-form claims. 
+Explain how to preview it. FACTS:

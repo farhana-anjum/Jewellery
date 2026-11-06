@@ -1,0 +1,87 @@
+ROLE
+Act as a professional front-end developer and UX writer who creates accessible personal portfolios.
+TASK
+Create a responsive, one-page personal portfolio in one HTML file, with all CSS embedded inside a <style> element.
+PORTFOLIO INPUTS
+Name: [Farhana Anjum]
+Current role or professional title: [Jewelry Designer]
+Company or organization: [Verified organization, if applicable]
+Target audience: [Intended visitors, such as potential clients, employers, or collaborators]
+Primary purpose: [What visitors should understand or do]
+Verified project details: [Provide details, or leave blank]
+Verified skills: [Provide skills, or leave blank]
+Verified biography and professional interests: [Provide information, or leave blank]
+Verified contact details and URLs: [Provide details, or leave blank]
+Preferred colors: [Optional; default to restrained Orange, Mauve, and Green]
+Preferred tone: [Optional; default to clear, professional English]
+Treat blank fields and unfilled input labels as missing information, not as verified facts. If the audience or purpose is unspecified, design for visitors who want to understand the person’s background, review their work, and find contact information.
+CONTENT ACCURACY
+Use only the verified information explicitly supplied for this task.
+Do not invent or infer projects, clients, skills, qualifications, responsibilities, metrics, testimonials, achievements, employment history, or contact details.
+Use clearly marked placeholders wherever information is missing. Do not turn plausible assumptions into biographical claims.
+Do not associate projects with the listed company or organization unless that relationship is explicitly confirmed.
+PAGE REQUIREMENTS
+Include navigation and these five sections:
+Introduction
+Display the person’s name, role or professional title, and organization where applicable.
+Use placeholders for missing information.
+If no organizational affiliation applies, omit that reference.
+Include a “View Projects” link that navigates to the Projects section.
+Projects
+Include exactly two project cards.
+Each card must contain:
+Project title
+Brief description
+The person’s role
+Tools used
+Outcome
+Proof or supporting URL
+Use supplied, verified details where available.
+Mark missing fields with descriptive placeholders, such as “[Add verified project title]”.
+Clearly identify cards containing unverified information as “Project details awaiting verified information.”
+Avoid language suggesting placeholder projects have been completed.
+Skills
+Display only explicitly supplied, verified skills.
+If none are supplied, include editable placeholders such as “[Add verified skill]”.
+Do not infer skills from a role, industry, or organization.
+About
+Introduce the person using the confirmed facts.
+Include placeholders for missing background and professional interests.
+Do not invent a career narrative or promotional claims.
+Contact
+Include fields for email, LinkedIn, and an optional additional contact link.
+Display missing email information as “[farhana.anjum2lisa@gmail.com]”.
+Display every missing URL as “[Add verified URL]”.
+Render missing contact details and URLs as plain text, not clickable links.
+Make supplied, verified contact destinations clickable where appropriate.
+Do not include a contact form or claim that messages can be sent through the page.
+DESIGN REQUIREMENTS
+Use the preferred colors, or the default navy, white, and blue palette.
+Use readable system fonts, generous spacing, and a clear visual hierarchy.
+Create a clean, modern appearance appropriate for the stated audience.
+Support mobile, tablet, and desktop layouts without horizontal scrolling.
+Ensure long text and URLs wrap safely.
+Use embedded CSS only.
+Do not use JavaScript, external libraries, external fonts, or external assets.
+ACCESSIBILITY REQUIREMENTS
+Use semantic HTML and appropriate landmarks.
+Include exactly one <h1> and logically ordered section headings.
+Include a working skip-to-content link.
+Make navigation keyboard-accessible without requiring a scripted menu.
+Provide clearly visible keyboard focus indicators.
+Maintain at least 4.5:1 contrast for normal text.
+Do not rely on color alone to communicate meaning.
+Use descriptive link text and matching section IDs.
+Keep content usable when text is enlarged and the viewport is narrow.
+IMPLEMENTATION REQUIREMENTS
+Return a complete HTML5 document with a doctype, language attribute, character encoding, descriptive page title, and viewport metadata.
+Place all CSS inside one <style> element.
+Add brief HTML comments identifying where placeholders should be replaced.
+Do not create fake destinations, empty links, or href="#" links for missing information. Valid internal navigation links are allowed.
+Keep the code readable and easy to edit.
+OUTPUT FORMAT
+Return:
+The complete HTML in one code block, ready to save as index.html.
+Simple preview instructions: save the file, open it in a browser, and resize the window to check responsiveness.
+A short checklist of the missing information to replace before publishing.
+Proceed using placeholders without asking follow-up questions.
